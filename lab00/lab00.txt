@@ -1,0 +1,65 @@
+lab 00 . done
+v prilogi posiljam primer moje kode in kako sem resila vajo 00 , ni bilo vecjih tezav razen da sem v casih najprej napacno napisala komando pol pa mogla popraviti,
+drugac mi je vse delalo tko kot bi moglo
+
+user@codespaces-46fed6:~$ history
+    1  whoami
+    2  history
+    3  pwd
+    4  cd /home/user
+    5  pwd
+    6  mkdir vaje00
+    7  ls
+    8  mkdir linux-vaja 
+    9  ls -l
+   10  cd / home/user/linux-vaja
+   11  pwd
+   12  cd linux-vaja
+   13  pwd
+   14  cd / home/user
+   15  cd /home/user
+   16  mkdir novaMapa
+   17  touch opis.txt
+   18  nano opis.txt
+   19  cat opis.txt
+   20  ls 
+   21  ls - l
+   22  ls -l
+   23  cd /home/user
+   24  mkdir Testni
+   25  mv opis.txt /user/Testni
+   26  mv opis.txt /testni
+   27  mv opis.txt /Testni
+   28  cd linux-vaja
+   29  mv opis.txt /Testni
+   30  mv opis.txt Testni/
+   31  cd/ novaMapa
+   32  cd novaMapa
+   33  ls
+   34  cd /home/user
+   35  ls
+   36  cd novaMapa
+   37  mv opis.txt Testni/
+   38  cd /home/user
+   39  mv opis.txt Testni/
+   40  ls Testni
+   41  mv opis.txt/ moj_profil.txt
+   42  cd Testni
+   43  mv opis.txt/ moj_profil.txt
+   44  ls - l
+   45  ls -l
+   46  ls
+   47  cp /home/user/Testni/moj_profil.txt /home/user/
+   48  cd home/user
+   49  cd home/ user
+   50  cd /home/user
+   51  ls
+   52  ls -lh
+   53  chmod 444 moj_profil.txt
+   54  ls -l moj_profil.txt
+   55  du -sh ~
+   56  df -h
+   57  du -ah ~ | sort -rh | head -n 5
+   58  history
+   59  user@codespaces-46fed6:~$ history
+   60  history
