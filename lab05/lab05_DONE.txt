@@ -1,0 +1,40 @@
+lab05
+
+V mapi SPAM sem našla sumljivo e-poštno sporočilo, ki se je predstavljalo kot obvestilo zaupanja vredne organizacije. Že vsebina sporočila je ustvarjala občutek nujnosti in zahtevala takojšnje ukrepanje, kar je značilno za phishing napade. Za dodatno preverjanje sem analizirala glavo sporočila (email header).
+Pri pregledu tehničnih podatkov je bilo razvidno, da dejanski IP pošiljatelja ni ustrezal domnevnemu izvoru sporočila. IP naslov 185.203.116.45 ni pripadal uradni infrastrukturi organizacije, temveč je bil registriran v tujini. Na podlagi geolokacije IP naslova je bilo mogoče sklepati, da sporočilo izvira iz vzhodne Evrope, kar ni skladno z navedbo pošiljatelja iz Slovenije.
+Dodatno sem opazila, da se domena v polju From ni ujemala z domeno v polju Return-Path, kar kaže na ponarejanje pošiljatelja (email spoofing). V glavi sporočila je bilo vidnih tudi več preusmeritev preko različnih poštnih strežnikov, kar je pogosta tehnika za zakrivanje pravega izvora sporočila.
+Pri preverjanju varnostnih mehanizmov so bile zaznane napake pri SPF in DKIM preverjanju, DMARC politika pa ni bila uspešno prestana. Vsi ti znaki skupaj jasno kažejo, da gre za phishing sporočilo, katerega namen je zavajanje uporabnika in pridobivanje občutljivih podatkov.
+Na podlagi te analize je razvidno, da poleg vsebine sporočila pomembno vlogo pri prepoznavanju nevarnih e-poštnih sporočil igra tudi tehnična analiza glave sporočila, ki omogoča zanesljivejšo presojo izvora in verodostojnosti sporočila.
+
+
+
+Primer lastnega phishing sporočila (izobraževalni namen)
+
+Tip napada: Phishing
+Cilj: pridobitev prijavnih podatkov
+Psihološki vzvod: strah in nujnost
+
+Primer besedila:
+
+Zadeva: Pomembno – preverjanje vašega računa
+
+Spoštovani,
+
+zaradi varnostnega incidenta je potrebno nemudoma potrditi vaše uporabniške podatke. Če tega ne storite v roku 12 ur, bo dostop do vašega računa začasno onemogočen.
+
+Prosimo, da se prijavite na spodnji povezavi:
+http://secure-verification-account.com
+
+Hvala za razumevanje.
+
+Sporočilo deluje realistično, uporablja uraden ton, ustvarja pritisk in vsebuje zavajajočo povezavo.
+
+
+Kako hitro opazite sumljivost e-poštnega sporočila?
+Sumljivost je pogosto mogoče opaziti že ob prvem branju, predvsem zaradi nenavadnih domen, občutka nujnosti in zahtev po posredovanju podatkov.
+
+Ali bi brez headerja vedno prepoznali nevarno sporočilo?
+Ne vedno. Nekatera phishing sporočila so zelo prepričljiva, zato analiza headerjev predstavlja pomembno dodatno orodje za preverjanje izvora sporočila.
+
+Kaj bi svetovali novemu uporabniku elektronske pošte?
+Svetoval bi previdnost pri odpiranju povezav in priponk, preverjanje pošiljatelja, uporabo močnih gesel in dvofaktorske avtentikacije ter izobraževanje o najpogostejših oblikah socialnega inženiringa.
