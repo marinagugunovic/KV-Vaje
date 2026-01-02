@@ -1,0 +1,27 @@
+lab03
+Pri uporabi orodij Sherlock in Maigret za isto uporabniško ime je bilo opaziti,
+ da oba orodja uspešno poiščeta javno dostopne uporabniške profile na različnih spletnih platformah.
+ Sherlock je hitrejši in bolj pregleden pri osnovnem iskanju uporabniških imen, medtem ko Maigret ponuja podrobnejše rezultate, več metapodatkov in bolj strukturiran izpis.
+ Maigret je v nekaterih primerih našel več profilov kot Sherlock.
+
+ Med rezultati so se lahko pojavile informacije,
+ kot so povezani profili na več družbenih omrežjih, javno dostopne fotografije ali opis profila.
+ Takšne informacije lahko predstavljajo tveganje za zasebnost. 
+ Posameznik se lahko zaščiti z omejitvijo vidnosti profilov, uporabo zasebnih nastavitev,
+ previdno objavo osebnih podatkov ter uporabo različnih uporabniških imen na različnih platformah.
+
+ Katere informacije so bile najlažje in najtežje najdene?
+Najlažje so bile najdene informacije,
+povezane z javnimi profili na družbenih omrežjih in platformah,
+kjer uporabniki pogosto uporabljajo enaka uporabniška imena. 
+Najtežje je bilo najti občutljive ali osebne podatke, ki niso javno objavljeni ali so ustrezno zaščiteni z nastavitvami zasebnosti.
+
+Kako bi prilagodili svoje vedenje na spletu po tej vaji?
+Po izvedeni vaji bi bolj pazila na to, katere informacije delim javno,
+ redno preverjala nastavitve zasebnosti na družbenih omrežjih in razmislila o uporabi različnih uporabniških imen za različne storitve.
+
+Ali je uporaba OSINT orodij etično sporna?
+Uporaba OSINT orodij sama po sebi ni etično sporna, 
+saj temelji na javno dostopnih podatkih.
+Etično vprašljiva postane takrat, ko se zbrane informacije zlorabljajo ali uporabljajo brez legitimnega razloga.
+Uporaba OSINT je upravičena pri varnostnih analizah, raziskavah, novinarstvu in izobraževanju, kadar se spoštuje zakonodaja in zasebnost posameznikov.
