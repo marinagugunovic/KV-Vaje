@@ -1,0 +1,27 @@
+lab04
+Kakšna je bila natančna lokacija (koordinate in naslov)?
+Pri analizi testne fotografije  so bili v EXIF metapodatkih prisotni GPS podatki. Prikazane koordinate so kazale na lokacijo v urbanem območju (48.8584 N, 2.2945 E), ki ustreza znani lokaciji v mestu. Vnos koordinat v Google Maps je potrdil skladnost lokacije z dejanskim okoljem.
+
+Kdaj je bila slika posneta?
+Iz metapodatkov je bil razviden natančen datum in čas nastanka fotografije ( 2019-06-15 ob 14:32), kar omogoča zelo natančno časovno opredelitev nastanka slike.
+
+Katere druge metapodatke si zaznal?
+Poleg GPS podatkov so bili vidni tudi podatki o napravi, s katero je bila slika posneta (mobilni telefon proizvajalca Apple), model naprave, orientacija slike ter uporabljena programska oprema.
+
+Kaj vas je presenetilo?
+Presenetilo me je, koliko natančnih informacij je shranjenih v metapodatkih ene same fotografije ter kako enostavno jih je mogoče pridobiti z uporabo spletnega EXIF orodja.
+
+Kaj bi priporočali osebi, ki redno objavlja slike na spletu?
+Priporočljivo je odstraniti EXIF metapodatke pred objavo slik na spletu, predvsem lokacijske podatke, ter redno preverjati nastavitve zasebnosti na družbenih omrežjih.
+
+
+
+
+Ali bi moral vsak pred objavo slike odstraniti EXIF podatke?
+Da, predvsem v primerih, ko fotografije razkrivajo lokacijo ali druge osebne podatke, ki bi lahko predstavljali varnostno tveganje.
+
+Kako se lahko zaščitimo pred zlorabo takšnih informacij?
+Z odstranjevanjem EXIF metapodatkov, izklopom beleženja lokacije na mobilnih napravah ter previdnim ravnanjem pri objavljanju vsebin na spletu.
+
+Ali si že kdaj objavil sliko z metapodatki? Kakšen bi bil tvoj odziv danes?
+V preteklosti je bilo možno objaviti fotografije brez zavedanja o metapodatkih. Danes bi pred objavo vedno preverila in po potrebi odstranila vse metapodatke.
