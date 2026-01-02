@@ -1,0 +1,12 @@
+lab02
+Katere podatke ste našli?
+Pri iskanju v spletnem okolju so lahko javno dostopni osnovni osebni podatki, kot so ime in priimek, fotografije ter javni profili na družbenih omrežjih (npr. LinkedIn, Instagram). V nekaterih primerih so lahko dostopni tudi podatki o interesih, izobrazbi ali delovnih izkušnjah.
+
+Kakšno potencialno tveganje predstavljajo?
+Javno dostopni osebni podatki lahko predstavljajo tveganje za zlorabo identitete, socialni inženiring ter phishing napade. Napadalci lahko te podatke uporabijo za ustvarjanje prepričljivih lažnih sporočil ali za ciljno usmerjene prevare.
+
+Primer črnega scenarija
+Napadalec z uporabo javno dostopnih podatkov o posamezniku ustvari lažno e-poštno sporočilo ali sporočilo na družbenem omrežju, ki deluje zaupanja vredno. S tem lahko posameznika zavede k razkritju dodatnih osebnih podatkov ali celo dostopa do njegovih uporabniških računov.
+
+Kako bi ocenili svojo osebno varnost/zasebnost?
+Svojo osebno varnost in zasebnost bi ocenila kot srednjo. Čeprav so nekateri podatki javno dostopni, je z ustreznimi nastavitvami zasebnosti, previdno uporabo spleta in ozaveščenostjo o tveganjih mogoče bistveno zmanjšati možnost zlorab.
