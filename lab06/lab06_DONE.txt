@@ -1,0 +1,17 @@
+lab06
+Pri tej vaji smo z uporabo orodja John The Ripper testirali varnost gesel, ki so bila najprej pretvorjena v MD5 zgoščene vrednosti. Za napad je bil uporabljen slovarski napad z uporabo wordlista rockyou.txt.
+Po zagonu napada je program zelo hitro našel večino šibkih gesel. Gesla Password1, qwerty123, letmein in Summer2024 so bila razbita v zelo kratkem času (v nekaj sekundah), saj se nahajajo v znanih slovarjih pogosto uporabljenih gesel ali njihovih manjših variacij.
+Močno geslo My$Strong&Pass2024 program ni uspel razbiti. Razlog za to je njegova dolžina, uporaba velikih in malih črk, številk ter posebnih znakov, zaradi česar se ne nahaja v običajnih slovarjih in zahteva bistveno več časa ter računske moči za uspešen napad.
+Rezultati jasno kažejo, da so kratka in pogosto uporabljena gesla zelo ranljiva na slovarske napade, tudi kadar so shranjena v obliki zgoščenih vrednosti.
+
+Kako se povečuje ocena varnosti, ko dodajate dolžino gesla?
+Z večanjem dolžine gesla se eksponentno poveča število možnih kombinacij, kar bistveno oteži napade z grobo silo ali slovarjem. Daljša gesla potrebujejo veliko več časa za razbijanje.
+
+Kako vplivajo posebni znaki na oceno varnosti?
+Posebni znaki povečajo kompleksnost gesla in razširijo iskalni prostor, zaradi česar so takšna gesla težje uganljiva in manj verjetno vključena v slovarske sezname.
+
+Kako se ocenjuje “passphrase” v primerjavi s klasičnim geslom?
+Passphrase (daljša fraza iz več besed) je praviloma varnejša od klasičnega kratkega gesla, saj združuje dolžino in zapomljivost, hkrati pa otežuje avtomatizirane napade.
+
+Katero geslo bi priporočili za vsakodnevno uporabo in zakaj?
+Priporočljivo je uporabljati dolgo passphrase geslo, ki vsebuje kombinacijo črk, številk in posebnih znakov (npr. stavek z dodatnimi simboli). Takšno geslo je hkrati varno in dovolj enostavno za zapomnitev.
